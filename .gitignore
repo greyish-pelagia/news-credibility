@@ -1,0 +1,6 @@
+.*/
+.worktrees/
+D*.md
+P*.md
+.DS_Store
+data/raw/liar_dataset.zip
