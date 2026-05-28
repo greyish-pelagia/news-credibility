@@ -4,3 +4,7 @@ D*.md
 P*.md
 .DS_Store
 data/raw/liar_dataset.zip
+data/interim/*.tsv
+data/interim/README
+__pycache__/
+*.py[cod]
