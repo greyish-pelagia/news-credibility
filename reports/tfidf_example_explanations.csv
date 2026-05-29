@@ -1,0 +1,25 @@
+statement_id,statement,true_label,predicted_label,ngram,tfidf_value,coefficient,contribution
+9462.json,"When Rick Scott was deposed in lawsuits about his company, he took the Fifth 75 times.",1,1,times,0.2724183399057299,1.6413785406655952,0.447141617205011
+9462.json,"When Rick Scott was deposed in lawsuits about his company, he took the Fifth 75 times.",1,1,fifth,0.3906324106280927,0.743358038804043,0.2903797426577946
+9462.json,"When Rick Scott was deposed in lawsuits about his company, he took the Fifth 75 times.",1,1,scott,0.26107317824126136,-1.0401988133439588,-0.27156801020249594
+9462.json,"When Rick Scott was deposed in lawsuits about his company, he took the Fifth 75 times.",1,1,rick,0.28476797595034525,-0.5312791614650396,-0.15129129147499598
+9462.json,"When Rick Scott was deposed in lawsuits about his company, he took the Fifth 75 times.",1,1,company,0.32527085994476557,0.366892101411096,0.11933930933292934
+9462.json,"When Rick Scott was deposed in lawsuits about his company, he took the Fifth 75 times.",1,1,lawsuits,0.43557903729704844,-0.16116198962334627,-0.07019878428901408
+9462.json,"When Rick Scott was deposed in lawsuits about his company, he took the Fifth 75 times.",1,1,took,0.27938532345285605,-0.23086286364017922,-0.06449969583136407
+9462.json,"When Rick Scott was deposed in lawsuits about his company, he took the Fifth 75 times.",1,1,75,0.371711867691682,-0.1695975052029201,-0.0630414054148272
+11296.json,Says the case of a Texas judge who refused to perform heterosexual weddings exposes a double standard in the case against Kentucky clerk Kim Davis.,0,0,davis,0.2763892446821327,-0.6919006418428033,-0.19123389579401523
+11296.json,Says the case of a Texas judge who refused to perform heterosexual weddings exposes a double standard in the case against Kentucky clerk Kim Davis.,0,0,says,0.08756545427881876,-1.4665056315977945,-0.1284152318333069
+11296.json,Says the case of a Texas judge who refused to perform heterosexual weddings exposes a double standard in the case against Kentucky clerk Kim Davis.,0,0,judge,0.26336864684071337,0.33986856015473604,0.08951072279165442
+11296.json,Says the case of a Texas judge who refused to perform heterosexual weddings exposes a double standard in the case against Kentucky clerk Kim Davis.,0,0,double,0.23495872911727791,0.35321360305097027,0.08299061927979065
+11296.json,Says the case of a Texas judge who refused to perform heterosexual weddings exposes a double standard in the case against Kentucky clerk Kim Davis.,0,0,case,0.49277532782460987,0.1300419649712944,0.06408147191968602
+11296.json,Says the case of a Texas judge who refused to perform heterosexual weddings exposes a double standard in the case against Kentucky clerk Kim Davis.,0,0,standard,0.2763892446821327,-0.1795739178188198,-0.04963229951055498
+11296.json,Says the case of a Texas judge who refused to perform heterosexual weddings exposes a double standard in the case against Kentucky clerk Kim Davis.,0,0,texas,0.15429272433008334,0.318164381744354,0.049090449244133014
+11296.json,Says the case of a Texas judge who refused to perform heterosexual weddings exposes a double standard in the case against Kentucky clerk Kim Davis.,0,0,kentucky,0.30510310024337545,-0.0905327776202178,-0.02762183112557253
+9047.json,"Says Dan Patrick supported giving a $5,000 taxpayer-funded voucher to every family to buy a car.",1,0,dan,0.28520335899597,-0.6888209926402487,-0.19645406084793723
+9047.json,"Says Dan Patrick supported giving a $5,000 taxpayer-funded voucher to every family to buy a car.",1,0,000,0.14930081889113797,1.0332420373545674,0.1542638822897847
+9047.json,"Says Dan Patrick supported giving a $5,000 taxpayer-funded voucher to every family to buy a car.",1,0,says,0.09668525628348375,-1.4665056315977945,-0.14178947283220497
+9047.json,"Says Dan Patrick supported giving a $5,000 taxpayer-funded voucher to every family to buy a car.",1,0,taxpayer,0.23813249682410614,-0.5804637247421996,-0.13822727608868068
+9047.json,"Says Dan Patrick supported giving a $5,000 taxpayer-funded voucher to every family to buy a car.",1,0,patrick,0.2720485450186534,-0.3611038762654552,-0.09823778413861294
+9047.json,"Says Dan Patrick supported giving a $5,000 taxpayer-funded voucher to every family to buy a car.",1,0,taxpayer funded,0.29392744255559156,-0.30943321845988553,-0.09095091454365982
+9047.json,"Says Dan Patrick supported giving a $5,000 taxpayer-funded voucher to every family to buy a car.",1,0,voucher,0.28790072386412546,0.3001013052482302,0.08639938301353435
+9047.json,"Says Dan Patrick supported giving a $5,000 taxpayer-funded voucher to every family to buy a car.",1,0,supported,0.2222803179786341,0.38865554961197574,0.08639047915191077
