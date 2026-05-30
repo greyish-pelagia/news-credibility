@@ -1,0 +1,25 @@
+statement_id,statement,true_label,predicted_label,ngram,tfidf_value,coefficient,contribution
+9197.json,big wall street banks big corporations give many times political donations democrats republicans,0,1,times,0.18363260091868164,1.6679091754244522,0.3062824999793258
+9197.json,big wall street banks big corporations give many times political donations democrats republicans,0,1,corporations,0.25456474724102224,0.7412072638059822,0.18868523976397955
+9197.json,big wall street banks big corporations give many times political donations democrats republicans,0,1,democrats,0.18723599531727955,-0.8889272933137367,-0.1664391865282928
+9197.json,big wall street banks big corporations give many times political donations democrats republicans,0,1,political donations,0.3196135484187856,0.41347679574792534,0.13215278587782386
+9197.json,big wall street banks big corporations give many times political donations democrats republicans,0,1,democrats republicans,0.2840051042251117,-0.44374855598290186,-0.12602685489166687
+9197.json,big wall street banks big corporations give many times political donations democrats republicans,0,1,political,0.22840573183489646,0.45061902098286083,0.10292396726631489
+9197.json,big wall street banks big corporations give many times political donations democrats republicans,0,1,donations,0.27972905858388153,0.26985357605034765,0.07548588678405763
+9197.json,big wall street banks big corporations give many times political donations democrats republicans,0,1,wall,0.22743755640063776,-0.2852177520088658,-0.06486922855897953
+6816.json,barack obama us lowest workforce since president jimmy carter,0,0,obama,0.19550611129232037,-2.1558452528167957,-0.421480921926221
+6816.json,barack obama us lowest workforce since president jimmy carter,0,0,lowest,0.3162183590828331,0.9994600390491853,0.31604761351699767
+6816.json,barack obama us lowest workforce since president jimmy carter,0,0,jimmy,0.42679703932299473,-0.567729343342867,-0.24230520287552357
+6816.json,barack obama us lowest workforce since president jimmy carter,0,0,president,0.20640766344863995,-0.9967552158445181,-0.20573791513271175
+6816.json,barack obama us lowest workforce since president jimmy carter,0,0,barack,0.22949631540776294,-0.7030220680798197,-0.1613409742746641
+6816.json,barack obama us lowest workforce since president jimmy carter,0,0,jimmy carter,0.4568159021112046,-0.3160569524982527,-0.14437984187400746
+6816.json,barack obama us lowest workforce since president jimmy carter,0,0,carter,0.40766431213245163,-0.13925160627416944,-0.05676791028509827
+6816.json,barack obama us lowest workforce since president jimmy carter,0,0,barack obama,0.2401746768083648,-0.1625867596727768,-0.03904922245772845
+7577.json,students leave high schools go community college percent pay take remedial math,1,1,percent,0.1493799756177536,2.4817048491021354,0.37071700984933786
+7577.json,students leave high schools go community college percent pay take remedial math,1,1,college,0.2493012979783794,0.819778619196153,0.20437187382052457
+7577.json,students leave high schools go community college percent pay take remedial math,1,1,math,0.34005103664517566,0.5251393522681802,0.17857418112197077
+7577.json,students leave high schools go community college percent pay take remedial math,1,1,schools,0.24274150779128678,-0.5468279372281472,-0.13273783798515956
+7577.json,students leave high schools go community college percent pay take remedial math,1,1,community,0.2866288313665715,0.24120781594667476,0.06913711440127845
+7577.json,students leave high schools go community college percent pay take remedial math,1,1,high,0.25172054233453933,0.20275487966950512,0.05103756827138209
+7577.json,students leave high schools go community college percent pay take remedial math,1,1,students,0.2511033584671728,0.2001391964420306,0.05025562438751512
+7577.json,students leave high schools go community college percent pay take remedial math,1,1,leave,0.3008780820882858,0.16324527674602593,0.049116925777315724
