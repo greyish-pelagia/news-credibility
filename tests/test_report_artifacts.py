@@ -8,6 +8,7 @@ REQUIRED_ARTIFACTS = [
     Path("models/dummy_baseline.joblib"),
     Path("models/tfidf_logreg.joblib"),
     Path("models/transformer_or_embeddings.joblib"),
+    Path("models/embedding_gbm.joblib"),
     Path("models/bertopic_model"),
     Path("reports/metrics_summary.csv"),
     Path("reports/tfidf_top_ngrams.csv"),
@@ -52,4 +53,3 @@ def test_metrics_summary_contains_expected_models_and_columns():
 
     assert expected_columns.issubset(metrics.columns)
     assert expected_models.issubset(set(metrics["model"]))
-

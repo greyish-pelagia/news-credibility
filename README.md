@@ -49,7 +49,11 @@ This project uses the LIAR dataset. LIAR contains short political statements lab
 - `reports/bertopic_topic_risk.csv`
 - `reports/error_analysis.md`
 - confusion matrices in `reports/figures/`
-- saved model artifacts in `models/`
+- saved model artifacts in `models/`, including the dummy baseline, TF-IDF model, sentence embedding logistic regression model, and sentence embedding GBM model
+
+## Model Modules
+
+The four supervised model definitions live in `src/models/`, one module per model. Each model class exposes `__init__`, `fit`, `predict`, `save`, and `load`.
 
 ## Limitations
 
