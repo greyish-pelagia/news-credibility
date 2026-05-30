@@ -55,6 +55,16 @@ This project uses the LIAR dataset. LIAR contains short political statements lab
 
 The four supervised model definitions live in `src/models/`, one module per model. Each model class exposes `__init__`, `fit`, `predict`, `save`, and `load`.
 
+## CLI Article Check
+
+Run the lightweight CLI against a text article:
+
+```bash
+uv run python src/fact_check.py --model embedding_gbm --model-path models/embedding_gbm.joblib --article-path example_article.md
+```
+
+Supported `--model` values are `tfidf_logreg`, `embedding_logreg`, and `embedding_gbm`. The CLI applies the same text cleanup shape used in `data_exploration.ipynb` before prediction.
+
 ## Limitations
 
 1. LIAR contains short statements, not full articles.
@@ -63,19 +73,3 @@ The four supervised model definitions live in `src/models/`, one module per mode
 4. Political-domain bias is likely.
 5. The models classify claim credibility patterns; they do not retrieve evidence or fact check in real time.
 6. BERTopic is used mainly for topic-risk interpretation, not as the primary classifier in the final notebook.
-
-## Suggested Presentation Outline
-
-1. Problem definition
-2. Why the MVP uses LIAR
-3. Binary label mapping
-4. Dataset exploration
-5. Model 1: Dummy baseline
-6. Model 2: TF-IDF + Logistic Regression
-7. Model 3: Sentence embeddings + Logistic Regression
-8. Model 4: Sentence embeddings + GBM
-9. Evaluation results
-10. Explainability examples
-11. Error analysis
-12. Limitations
-13. What would be improved with more time
