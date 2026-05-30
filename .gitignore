@@ -6,5 +6,6 @@ P*.md
 data/raw/liar_dataset.zip
 data/interim/*.tsv
 data/interim/README
+data/raw/
 __pycache__/
 *.py[cod]
