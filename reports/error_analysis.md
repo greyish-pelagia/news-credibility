@@ -34,7 +34,7 @@ Sentence embeddings with Logistic Regression reached macro F1 0.616. Compared wi
 
 ## 6. What Sentence embeddings + GBM helped explain
 
-Sentence embeddings + GBM reached macro F1 0.624. The TF-IDF-vs-GBM comparison was {'both_correct': 425, 'tfidf_correct_embeddings_gbm_wrong': 133, 'tfidf_wrong_embeddings_gbm_correct': 148, 'both_wrong': 208}. This shows whether a nonlinear model on semantic embeddings corrects a meaningful number of TF-IDF mistakes or mostly shifts the error profile. The BERTopic topic-risk table is available in `reports/bertopic_topic_risk.csv` and is used as an interpretability artifact.
+Sentence embeddings + GBM reached macro F1 0.624. The TF-IDF-vs-GBM comparison was {'both_correct': 425, 'tfidf_correct_embeddings_gbm_wrong': 133, 'tfidf_wrong_embeddings_gbm_correct': 148, 'both_wrong': 208}. This shows whether a nonlinear model on semantic embeddings corrects a meaningful number of TF-IDF mistakes or mostly shifts the error profile.
 
 ## 7. Main limitations
 
@@ -43,4 +43,3 @@ Sentence embeddings + GBM reached macro F1 0.624. The TF-IDF-vs-GBM comparison w
 3. Dropping `half-true` makes the task cleaner but less complete.
 4. Political-domain bias is likely.
 5. No real-time fact checking is performed.
-6. BERTopic is mainly explanatory and is not the primary classifier in this notebook.
